@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cake Shop</title>
+</head>
+
+<body>
+    <form>
+        <h1>Formulario de compras</h1>
+        <p>Datos de contacto</p>
+        <input type="text" placeholder="Ingrese su nombre">
+        <br>
+        <input type="text" placeholder="Ingrese su numero de télefono">
+        <br>
+        <input type="email" placeholder="Ingrese su correo electronico">
+        <br>
+        <span>Pastel a elegir: </span>
+        <select name="cake">
+            <option></option>
+            <option value="Chocolate">Chocolate - $300.00</option>
+            <option value="milk">Tres leches - $250.00</option>
+            <option value="strawberry">Fresa - $280.00</option>
+        </select>
+        <br>
+        <span>Adornos para pastel</span>
+        <select name="decoration">
+            <option></option>
+            <option value="kiwi">Kiwis - $15.00</option>
+            <option value="cherry">Cerezas - $10.00</option>
+            <option value="strawberry">Fresas - $15.00</option>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
